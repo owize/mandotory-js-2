@@ -64,7 +64,7 @@ $(document).ready(function() {
       $("div").removeClass("squareSelected");
     }
 
-
+    //testing
 
   });
 
