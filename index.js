@@ -58,13 +58,13 @@ $(document).ready(function() {
     }
 
   }
-
+  //hääääääääääääääääääääääääääääääär
   $("button").on("click", function(event) {
 
       $("div").removeClass("squareSelected");
     }
 
-    //testing
+    //häääääääääääääääääääär
 
   });
 
