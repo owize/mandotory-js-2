@@ -56,4 +56,19 @@ $(document).ready(function() {
       return false;
     }
   }
+
+
 });
+
+$("button").on("click", resetSquares);
+
+function resetSquares() {
+  let squares = $(".square");
+  for (let each of squares) {
+    // ta bort klasserna
+    // minns inte hur det ser ut i jQuery,
+    // sen är det klart typ
+    $("div").removeClass("far fa-cricle");
+    $("div").removeClass("far fa-times");
+  }
+}
