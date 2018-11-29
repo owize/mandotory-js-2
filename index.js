@@ -54,19 +54,6 @@ $(document).ready(function() {
       return true;
     } else {
       return false;
-
     }
-
   }
-  //hääääääääääääääääääääääääääääääär
-  $("button").on("click", function(event) {
-
-      $("div").removeClass("squareSelected");
-    }
-
-    //häääääääääääääääääääär
-
-  });
-
-
 });
