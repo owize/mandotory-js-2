@@ -5,7 +5,7 @@ function add() {
   let squareSelected = $(this);
 
   if (squareSelected.hasClass("fa fa-times") || squareSelected.hasClass("far fa-circle")) {
-    //alert("this square has already been selected");
+
   } else {
     if (player === 1) {
       squareSelected.addClass("fa fa-times")
