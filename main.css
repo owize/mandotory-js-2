@@ -26,14 +26,11 @@
   border-right: 1px solid black;
 }
 
-.x {
-  background-color: red;
-}
-
-.o {
-  background-color: blue;
-}
-
-.button {
-  float: right;
+button {
+  width: 130px;
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 25px;
+  align-self: center;
+  border: 1px solid black;
 }
